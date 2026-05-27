@@ -1,16 +1,58 @@
-# React + Vite
+# 🚀 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website repository! Built using **React**, **Vite**, and styled with **Tailwind CSS**, this single-page application features a modern, responsive, and animated design with dynamic interactive components.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+Check out the live website: **[saiaakashnagam.github.io/protfolo](https://saiaakashnagam.github.io/protfolo/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
+- **Modern UI/UX**: Designed with a sleek dark mode, vibrant accents, and smooth glassmorphism.
+- **Interactive Particles**: Features a dynamic, animated background using `@tsparticles`.
+- **Responsive Layout**: Fully optimized for mobile, tablet, and desktop screens.
+- **Dynamic Typewriter Effect**: Highlights key roles and skills on the landing page.
+- **Structured Sections**:
+  - **Hero**: Catchy introduction with interactive CTA.
+  - **About**: Personal profile and background.
+  - **Skills**: Visual indicators of technical expertise.
+  - **Experience**: Timeline of professional and academic experience.
+  - **Projects**: Showcase of featured work with details.
+  - **Certifications**: Professional certifications and credentials.
+  - **Contact**: Full interactive contact form.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technology Stack
+- **Core**: React 19, Vite
+- **Styling**: Tailwind CSS v4
+- **Animations**: Framer Motion
+- **Interactivity**: `@tsparticles/react`, `lucide-react`, `react-simple-typewriter`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Local Development
+
+To run the project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/saiaakashnagam/protfolo.git
+   cd protfolo
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+   Open `http://localhost:5173` in your browser to view the application.
+
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
