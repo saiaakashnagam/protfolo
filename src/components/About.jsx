@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { GraduationCap, Award, Briefcase } from 'lucide-react';
+import { GraduationCap, Briefcase } from 'lucide-react';
 
 const About = () => {
   return (

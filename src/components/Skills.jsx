@@ -1,8 +1,7 @@
 import { motion } from 'framer-motion';
 import { 
   Code2, Globe, Cloud, Database, 
-  BrainCircuit, ShieldCheck, Wrench, 
-  Terminal, Cpu, Network
+  BrainCircuit, ShieldCheck, Wrench
 } from 'lucide-react';
 
 const skillCategories = [
